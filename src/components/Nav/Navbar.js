@@ -3,12 +3,14 @@ import CreatePostModal from "../Modals/CreatePostModal";
 
 import { Link } from "react-router-dom";
 
-const navbar = () => {
+const Navbar = () => {
     return (
         <nav>
             {" "}
             <div className="logo">
-                <Link to="/">MTB</Link>
+                <Link to="/">
+                    <img src="./logo.png"  style={{ width: '50px', height: '50px' }} />
+                </Link>
             </div>
             <ul>
                 <li>
@@ -23,4 +25,4 @@ const navbar = () => {
     );
 };
 
-export default navbar;
+export default Navbar;

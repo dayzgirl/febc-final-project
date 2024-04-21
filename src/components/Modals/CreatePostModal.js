@@ -97,7 +97,7 @@ function CreatePostModal() {
                             />
                         </Form.Group>    
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Label>Destination</Form.Label>
+                            <Form.Label>Add Image</Form.Label>
                             <Form.Control
                                 type="text"
                                 name="imgUrl"

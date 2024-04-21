@@ -1,68 +1,37 @@
-/* Spring Themed Navbar CSS */
-
-/* General Styles */
 nav {
+    height: 6vh;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #e0f7f0; /* Light teal pastel */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Navbar Links */
+nav .logo {
+font-size: 2.5rem;
+font-weight: 900;
+}
+
 nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+margin: 0;
+height: 100%;
+display: flex;
+align-items: center;
+list-style: none;
+display: flex;
 }
 
 nav ul li {
-    margin-right: 15px;
+font-size: 1.5rem;
+font-weight: 600;
+transition: all 0.25s ease-in-out;
 }
 
-nav a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
+nav ul li:nth-of-type(1),
+nav ul li:nth-of-type(2) {
+    margin-right: 25px;
 }
-
-/* Hover and Active States */
-nav a:hover {
-    background-color: #bde7d9; /* Soft teal */
-    color: #000; /* Dark black */
-}
-
-/* Navbar Logo */
-.logo {
-    font-weight: bold;
-    font-size: 30px;
-    color: #333;
-    text-align: center;
-}
-
-/* Responsive Navbar Styles */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin-bottom: 10px;
-    }
-
-    nav a {
-        padding: 10px 20px;
-
-    }
+    
+nav ul li:hover {
+    color: darkgray;
 }

@@ -1,0 +1,50 @@
+.Home {
+    width: 100%;
+    height: calc(100vh - 11vh);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: ; color: rgb(160, 218, 160);
+    background-image: url(trainbackclr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    }
+
+.Home h1 {
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(160, 218, 160);
+    border-color: rgb(80, 158, 78);
+    text-shadow: 2px 2px 3px rgb(53, 109, 52);
+    padding-left: 825px;
+}
+
+.Home button {
+    height: 50px;
+    width: 200px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    background: rgb(80, 158, 78);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.25s ease-in-out;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 825px;
+}
+
+.Home button:hover {
+    background: lightgray;
+    color: rgb(80, 158, 78);
+}
+
+@media (max-width: 768px) {
+    Home {
+        background-size: 150% 100%;
+    }
+}
+
