@@ -1,5 +1,5 @@
 @media screen and (max-width: 400px) {
     .create-post-modal button {
-        transform: scale(0.6);
+        transform: scale(0.5);
     }
 }
